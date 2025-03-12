@@ -1,0 +1,5 @@
+“Singularity loaded”
+D0_repA /project/GCRB/Hon_lab/shared/data/sequencing_data/nanopore/2024-01-19-Honlab-PromethION.cardiac_prod_1/barcode22
+args Namespace(input='/project/GCRB/Hon_lab/shared/data/sequencing_data/nanopore/2024-01-19-Honlab-PromethION.cardiac_prod_1/barcode22', reference='/project/GCRB/Hon_lab/s223695/Data_project/TFperturb_edist_additonal/dropout_analysis/Pool.total.oligos', name='D0_repA', query='(GTGGAAAGGACGAAACACC){e<=2}([ATCG]{18,22})(GTTTAAGAGCTAAGCTGGAAACAGC){e<=2}', is_illumina_index=False, batch_num=25, sampling=-1, adapt_cut=True, output_fastq=False, chunk_size=10000, max_workers=None)
+Number of files in input folder:  1137
+Counting total reads...

@@ -1,0 +1,32 @@
+{
+    "input_data":{
+        "input_file": "/project/shared/gcrb_igvf/data/shared/CM_Production_02/H5AD/V0_cm_production02_sgRNACells_filtered_w_embedding_full_.h5ad",
+        "sgRNA_file": "/project/GCRB/Hon_lab/s215194/Single_Cell/cm_production_02/_all_lanes_combined/aggr_dataframe/aggr_combined_df_full.pkl",
+        "anno_bed_file": "/project/shared/gcrb_igvf/shared/sgRNA_design/Cardiac.Production.2/final/CM_Production2_combined.bed"
+    },
+    "user_defined_data":{
+        "gRNA_dict_file": "/project/GCRB/Hon_lab/s223695/Data_project/20240903_CP2/gRNA_dict.pickle",
+        "pca_file":  "/project/GCRB/Hon_lab/s223695/Data_project/20240903_CP2/pca_dataframe.pickle",
+        "non_target_file": "/project/GCRB/Hon_lab/s223695/Data_project/20240903_CP2/non_target_cell_name.pickle",
+        "annotation_file": "/project/GCRB/Hon_lab/s223695/Data_project/20240903_CP2/full_annotation_df.csv"
+        
+    },
+    "gRNA_filtering":{
+        "combi_count": 4,
+        "total_permute_disco": 1000,
+        "batch_num_basic": 120
+    },
+    "permutation_test":{
+        "permute_per_bg": 1000,
+        "num_of_bg": 20,
+        "non_target_pick": 2000,
+        "batch_num_basic": 200
+    },
+    "aggregate":{
+        "downsampling_maximum":10000
+    },
+    "enhancer_permutation_test":{
+        "permute_num": 1000,
+        "batch_num_basic": 200
+    }
+}

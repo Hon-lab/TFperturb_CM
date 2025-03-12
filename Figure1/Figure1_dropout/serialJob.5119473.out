@@ -1,0 +1,81 @@
+“Singularity loaded”
+D0_repA /project/GCRB/Hon_lab/shared/data/sequencing_data/nanopore/2024-01-19-Honlab-PromethION.cardiac_prod_1/barcode22
+args Namespace(input='/project/GCRB/Hon_lab/shared/data/sequencing_data/nanopore/2024-01-19-Honlab-PromethION.cardiac_prod_1/barcode22', reference='/project/GCRB/Hon_lab/s223695/Data_project/TFperturb_edist_additonal/dropout_analysis/Pool.total.oligos', name='D0_repA', query='(GTGGAAAGGACGAAACACC){e<=2}([ATCG]{18,22})(GTTTAAGAGCTAAGCTGGAAACAGC){e<=2}', is_illumina_index=False, batch_num=25, sampling=-1, adapt_cut=True, output_fastq=False, chunk_size=10000, max_workers=None)
+Number of files in input folder:  1137
+Counting total reads...
+Total reads found: 4548000
+[Downsampling] Using all reads. # of Read: 4548000
+<step2>Extract gRNA sequences from fastq
+<step2>extraction finished
+<step3>count gRNAs
+read count:  4136229
+Reference count mode
+[warning] Some of gRNA does not match valid format. Check 
+[warning] 0 gRNAs do not start with G, 14195 gRNA are not 20bp length.
+14195 gRNAs contain adapter sequences (GTGGAAAGGACGAAACACCG). trim these gRNAs to 20bp
+reference count:  14195
+average coverage:  291.39
+count sgRNA by indices
+count file is saved at  ./D0_repA_count.csv
+Total mapped reads are 3832656
+mapping rate is 92.66%
+D0_repB /project/GCRB/Hon_lab/shared/data/sequencing_data/nanopore/2024-01-19-Honlab-PromethION.cardiac_prod_1/barcode23
+args Namespace(input='/project/GCRB/Hon_lab/shared/data/sequencing_data/nanopore/2024-01-19-Honlab-PromethION.cardiac_prod_1/barcode23', reference='/project/GCRB/Hon_lab/s223695/Data_project/TFperturb_edist_additonal/dropout_analysis/Pool.total.oligos', name='D0_repB', query='(GTGGAAAGGACGAAACACC){e<=2}([ATCG]{18,22})(GTTTAAGAGCTAAGCTGGAAACAGC){e<=2}', is_illumina_index=False, batch_num=25, sampling=-1, adapt_cut=True, output_fastq=False, chunk_size=10000, max_workers=None)
+Number of files in input folder:  1297
+Counting total reads...
+Total reads found: 5188000
+[Downsampling] Using all reads. # of Read: 5188000
+<step2>Extract gRNA sequences from fastq
+<step2>extraction finished
+<step3>count gRNAs
+read count:  4734142
+Reference count mode
+[warning] Some of gRNA does not match valid format. Check 
+[warning] 0 gRNAs do not start with G, 14195 gRNA are not 20bp length.
+14195 gRNAs contain adapter sequences (GTGGAAAGGACGAAACACCG). trim these gRNAs to 20bp
+reference count:  14195
+average coverage:  333.51
+count sgRNA by indices
+count file is saved at  ./D0_repB_count.csv
+Total mapped reads are 4150422
+mapping rate is 87.67%
+D0_original /project/GCRB/Hon_lab/shared/data/sequencing_data/nanopore/2023-11-13-Honlab-MinION.Lei_TFperturb2/barcode01
+args Namespace(input='/project/GCRB/Hon_lab/shared/data/sequencing_data/nanopore/2023-11-13-Honlab-MinION.Lei_TFperturb2/barcode01', reference='/project/GCRB/Hon_lab/s223695/Data_project/TFperturb_edist_additonal/dropout_analysis/Pool.total.oligos', name='D0_original', query='(GTGGAAAGGACGAAACACC){e<=2}([ATCG]{18,22})(GTTTAAGAGCTAAGCTGGAAACAGC){e<=2}', is_illumina_index=False, batch_num=25, sampling=-1, adapt_cut=True, output_fastq=False, chunk_size=10000, max_workers=None)
+Number of files in input folder:  1042
+Counting total reads...
+Total reads found: 4168000
+[Downsampling] Using all reads. # of Read: 4168000
+<step2>Extract gRNA sequences from fastq
+<step2>extraction finished
+<step3>count gRNAs
+read count:  2001285
+Reference count mode
+[warning] Some of gRNA does not match valid format. Check 
+[warning] 0 gRNAs do not start with G, 14195 gRNA are not 20bp length.
+14195 gRNAs contain adapter sequences (GTGGAAAGGACGAAACACCG). trim these gRNAs to 20bp
+reference count:  14195
+average coverage:  140.99
+count sgRNA by indices
+count file is saved at  ./D0_original_count.csv
+Total mapped reads are 1363282
+mapping rate is 68.12%
+D7_original /project/GCRB/Hon_lab/shared/data/sequencing_data/nanopore/2023-11-13-Honlab-MinION.Lei_TFperturb2/barcode02
+args Namespace(input='/project/GCRB/Hon_lab/shared/data/sequencing_data/nanopore/2023-11-13-Honlab-MinION.Lei_TFperturb2/barcode02', reference='/project/GCRB/Hon_lab/s223695/Data_project/TFperturb_edist_additonal/dropout_analysis/Pool.total.oligos', name='D7_original', query='(GTGGAAAGGACGAAACACC){e<=2}([ATCG]{18,22})(GTTTAAGAGCTAAGCTGGAAACAGC){e<=2}', is_illumina_index=False, batch_num=25, sampling=-1, adapt_cut=True, output_fastq=False, chunk_size=10000, max_workers=None)
+Number of files in input folder:  1902
+Counting total reads...
+Total reads found: 7608000
+[Downsampling] Using all reads. # of Read: 7608000
+<step2>Extract gRNA sequences from fastq
+<step2>extraction finished
+<step3>count gRNAs
+read count:  4160327
+Reference count mode
+[warning] Some of gRNA does not match valid format. Check 
+[warning] 0 gRNAs do not start with G, 14195 gRNA are not 20bp length.
+14195 gRNAs contain adapter sequences (GTGGAAAGGACGAAACACCG). trim these gRNAs to 20bp
+reference count:  14195
+average coverage:  293.08
+count sgRNA by indices
+count file is saved at  ./D7_original_count.csv
+Total mapped reads are 3031442
+mapping rate is 72.87%

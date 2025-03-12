@@ -1,0 +1,4 @@
+D0_repA	/project/GCRB/Hon_lab/shared/data/sequencing_data/nanopore/2024-01-19-Honlab-PromethION.cardiac_prod_1/barcode22
+D0_repB	/project/GCRB/Hon_lab/shared/data/sequencing_data/nanopore/2024-01-19-Honlab-PromethION.cardiac_prod_1/barcode23
+D0_original	/project/GCRB/Hon_lab/shared/data/sequencing_data/nanopore/2023-11-13-Honlab-MinION.Lei_TFperturb2/barcode01
+D7_original	/project/GCRB/Hon_lab/shared/data/sequencing_data/nanopore/2023-11-13-Honlab-MinION.Lei_TFperturb2/barcode02
