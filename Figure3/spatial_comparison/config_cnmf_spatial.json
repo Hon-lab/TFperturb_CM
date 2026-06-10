@@ -1,0 +1,11 @@
+{
+  "output_dir": "./cNMF_Spatial_MERFISH",
+  "output_name": "result",
+  "ad_file": "data/overall_merfish_raw.h5ad",
+  "component_list": [25,50,100],
+  "num_genes":"all",
+  "num_iter": 10,
+  "total_nodes": 3,
+  "threads_per_node": 2,
+  "factor_script_file": "/project/GCRB/Hon_lab/s223695/Data_project/cNMF_pipeline/factorize_step.sh"
+}

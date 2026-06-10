@@ -1,0 +1,254 @@
+# =========================
+# Large biological data files
+# =========================
+
+# Raw sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.cram
+*.bai
+*.crai
+*.pickle
+*.pkl
+
+# Genomics interval and annotation files
+*.bed
+*.bed.gz
+*.bigWig
+*.bw
+*.bigBed
+*.bb
+*.vcf
+*.vcf.gz
+*.bcf
+*.gtf
+*.gtf.gz
+*.gff
+*.gff3
+*.gff3.gz
+*.fa
+*.fasta
+*.fna
+*.fa.gz
+*.fasta.gz
+*.2bit
+
+# Count matrices and single-cell objects
+*.h5
+*.h5ad
+*.loom
+*.rds
+*.rda
+*.rdata
+*.mtx
+*.mtx.gz
+*.tsv.gz
+*.csv.gz
+*.parquet
+*.feather
+*.zarr/
+*.zarr.zip
+
+# 10x Genomics outputs
+filtered_feature_bc_matrix/
+raw_feature_bc_matrix/
+outs/
+molecule_info.h5
+web_summary.html
+
+# Cell Ranger and STARsolo outputs
+cellranger*/
+STARsolo/
+Solo.out/
+Aligned.out.sam
+Aligned.sortedByCoord.out.bam
+ReadsPerGene.out.tab
+
+# =========================
+# Large analysis directories
+# =========================
+
+# Input and output data folders
+Data/
+Raw_data/
+Intermediate/
+Output/
+output
+Figure/raw/
+Figure/intermediate/
+Plot/raw/
+plot/raw/
+
+# Temporary analysis folders
+tmp/
+temp/
+cache/
+scratch/
+work/
+runs/
+checkpoints/
+
+# Model files and embeddings
+models/
+model_weights/
+embeddings/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.pkl
+*.joblib
+
+# =========================
+# Logs and job scheduler files
+# =========================
+
+# Log files
+*.log
+*.out
+*.err
+logs/
+
+# Slurm files
+slurm-*.out
+*.slurm
+*.sbatch
+
+# Snakemake and Nextflow
+.snakemake/
+.nextflow/
+.nextflow.log
+work/
+
+# Cromwell or WDL
+cromwell-executions/
+cromwell-workflow-logs/
+
+# =========================
+# Python files
+# =========================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+conda-env/
+.ipynb_checkpoints/
+
+# Package build files
+build/
+dist/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# =========================
+# R files
+# =========================
+
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+
+# R project temporary files
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# Keep renv lockfile if you want reproducible R environments
+!renv.lock
+
+# =========================
+# IDE and OS files
+# =========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code and JetBrains
+.vscode/
+.idea/
+
+# =========================
+# Secrets and local settings
+# =========================
+
+# Credentials and environment files
+.env
+.env.*
+*.pem
+*.key
+*.json.key
+credentials.json
+token.json
+
+# Local config files
+config.local.yml
+config.local.yaml
+settings.local.json
+
+# =========================
+# Keep small metadata files
+# =========================
+
+# Keep README and small example data
+!README.md
+!data/README.md
+!data/example/
+!data/example/**
+!config/
+!config/*.yml
+!config/*.yaml
+
+# =========================
+# Repository-specific generated analysis artifacts
+# =========================
+
+# Local assistant/session metadata and archived files
+.agents/
+.codex/
+Archive/
+._*
+
+# Domain-specific large inputs and generated outputs
+**/data/
+**/Data/
+**/processed_data/
+**/Processed_data/
+**/Plot/
+**/plot/
+**/figure/
+**/Figure/
+**/logs/
+
+# cNMF run directories and intermediate results
+**/cNMF_*timecourse*/
+**/cNMF_Spatial_MERFISH/
+**/result/cnmf_tmp/
+**/result/*.npz
+**/result/*.h5ad
+**/result/*.txt
+**/result/*.png
+
+# Notebook autosaves can appear throughout analysis output folders
+**/.ipynb_checkpoints/
+!config/*.json
